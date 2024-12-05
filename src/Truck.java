@@ -1,4 +1,4 @@
-public class Truck extends Transport implements TyreService {
+public class Truck extends Transport implements TyreService, EngineService, TrailerService {
 
     public void updateTyre() {
         System.out.println("Меняем покрышку");

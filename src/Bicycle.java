@@ -1,4 +1,4 @@
-public class Bicycle extends Transport implements TyreService {
+public class Bicycle extends Transport implements TyreService, EngineService {
     public void updateTyre() {
         System.out.println("Меняем покрышку");
     }
