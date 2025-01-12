@@ -2,28 +2,28 @@ public class Transport {
     private String modelName;
     private int wheelsCount;
 
-    public String getModelName() {
+    protected String getModelName() {
         return modelName;
     }
 
-    public int getWheelsCount() {
+    protected int getWheelsCount() {
         return wheelsCount;
     }
 
-    public Transport(String modelName, int wheelsCount) {
+    protected Transport(String modelName, int wheelsCount) {
         this.modelName = modelName;
         this.wheelsCount = wheelsCount;
     }
 
-    public void updateTyre() {
+    protected void updateTyre() {
         System.out.println("Меняем покрышку");
     }
 
-    public void checkEngine() {
+    protected void checkEngine() {
         System.out.println("Проверяем двигатель");
     }
 
-    public void checkTrailer() {
+    protected void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
 }
